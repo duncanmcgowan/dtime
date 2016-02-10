@@ -63,8 +63,7 @@ Hence **dtime**, a really simple helper class that;
 ```
 >>> import dtime
 >>> from datetime import datetime
->>> pydt = datetime.now()
->>> dt = dtime(pydt)
+>>> dt = dtime(datetime.now())
 >>> str(dt)
 '2016-02-10 09:46:45.682451'
 ```

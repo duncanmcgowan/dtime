@@ -7,8 +7,8 @@ I like *datetime* but sometimes it's too complex for a trivial task; I like *tim
 Hence **dtime**, a really simple helper class that;
 
 <ol>
-<li>Converts timestamps, strings, *datetime* objects and dictionaries to a common date/time format;</li>
-<li>Converts a converted date/time entity to a *datetime* object;</li>
+<li>Converts timestamps, strings, <i>datetime</i> objects and dictionaries to a common date/time format;</li>
+<li>Converts a converted date/time entity to a <i>datetime</i> object;</li>
 <li>Provides UNIX-domain timestamps;</li>
 <li>Handles UTC;</li>
 <li>Provides a simple timer, measuring endpoints in decimal seconds.</li>

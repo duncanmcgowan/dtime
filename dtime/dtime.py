@@ -123,7 +123,7 @@ class _dtime(object):
          
       self.datetime['timestamp'] = self.totimestamp(self.datetime)
       self.datetime['utctimestamp'] = self.totimestamp(self.datetime, utc=True)
-         
+               
    
    def _fromstring(self, arg):
       ''' 
@@ -236,12 +236,7 @@ class _dtime(object):
       _timer_time['end_time'] = pytime.time()
       _timer_time['delta_time'] = _timer_time['end_time'] - _timer_time['start_time']
       _timer_time['start_time'] = _timer_time['end_time'] = None
-   
-   
-   @staticmethod
-   def timer_result():
-      if not _timer_time['delta_time']:
-         raise ValueError("run timer_end() before timer_result()")
       return _timer_time['delta_time']
+   
    
 

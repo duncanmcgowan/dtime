@@ -101,12 +101,13 @@ datetime.datetime(2016, 2, 10, 9, 35, 23, 948311)
 
 ```
 >>> import dtime
->>> dtime().timer_start()
+>>> dt = dtime()
+>>> dt.timer_start()
 .
 .
 .
->>> dtime().timer_end()
->>> dtime().timer_result()
+>>> elapsed_secs = dt.timer_end()
+>>> print elapsed_secs
 17.55080509185791
 ```
 
